@@ -17,12 +17,22 @@ table {
       color: blue;
 }
 
-body > div 
+/* body > div:nth-child(1)
 {
     height: 600px;
+} */
+
+.left-nav
+{
+    height: 500px;
+    width: 20px;float: left;background-color: gainsboro;
 }
 
-body > div > div:nth-child(1)
+.left-nav > span
+{
+    margin-bottom: 22px;
+}
+.banner
 {
     border: 1px solid gold;
     height: 250px;
@@ -30,26 +40,26 @@ body > div > div:nth-child(1)
     
 }
 
-body > div > div:nth-child(1) > i,h3,h5
+.banner > i,h3,h5
 {
     color: white;
 }
 
 
-body > div > div:nth-child(2)
+.table-data
 {
     border: 1px solid gold;
     height: 250px;
 }
 
-body > div > div:nth-child(3)
+.footer
 {
     border: 1px solid gold;
     height: 100px;
     background-color: rgb(75, 186, 238);
 }
 
-body > div > div:nth-child(1) > img
+.banner > img
 {
     float: left;
     height: -webkit-fill-available;
@@ -57,8 +67,10 @@ body > div > div:nth-child(1) > img
     margin: 10px;
 }
 
-body > div > div:nth-child(3) > img
+.footer > img
 {
     float: left;
     height: -webkit-fill-available;
-margin: 3px;}
+    margin: 3px;
+}
+
